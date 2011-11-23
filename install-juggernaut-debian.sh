@@ -158,8 +158,8 @@ wget http://www.systea.net/public/
 # http://@IP/juggernaut/index.php
 # /etc/init.d/redis-server {start|stop|restart} - /etc/init.d/juggernaut {start|stop|restart}
 
-# Nettoyage
-echo 'Suppression des fichiers inutiles'
+# Suppression des fichiers d'installation
+echo 'Suppression des fichiers d'installation'
 rm -rf $REPINST
 
 # Redémarrage du service apache2
